@@ -1,0 +1,9 @@
+<a href="page2.html">to page 2</a>
+
+<script>
+  window.onload = function() {
+    let getInput = prompt('Hey type something here: ');
+    localStorage.setItem('productName', getInput);
+    console.log(localStorage.getItem('productName'));
+  };
+</script>
